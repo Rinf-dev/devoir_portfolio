@@ -1,0 +1,62 @@
+@font-face {
+    font-family:"Nunito";
+    src: url(../fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+}
+main {
+    font-family: Nunito;
+
+} 
+p, ul , li {
+    font-weight: 400;
+}
+h1 , h2 , h3 {
+    font-weight: 600;
+}
+h1 {
+    font-size: 2.4em;
+}
+h2 {
+    font-size: 2.2em;
+}
+h3 {
+    font-size: 1.3em;
+}
+
+.navbar-toggle {
+    height : 20px;
+}
+#firstline {
+    display: flex;
+    flex-direction: row;
+    align-items:end;
+    justify-content:space-between ;
+    background-color: black;
+    color : white;
+    padding-top: 0;
+    padding-left: 10px;
+    height: auto;
+    width: 100vw;
+    margin-top:0 ;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+#firstline a {
+    background-color: black;
+    color : white;
+    text-decoration: none;
+}
+#firstline a:hover {
+    color : white;
+    text-decoration: underline;
+}
+.nav {
+    background-color: black;
+}
+.card:hover {
+    background-color: #efefef;
+    box-shadow: 1px 1px 3px 3px;
+}
+.portfolio_photo img {
+    width : 100%;
+}

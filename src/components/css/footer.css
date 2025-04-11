@@ -1,0 +1,48 @@
+@import url(./responsive.css);
+.footerdiv {
+    background-color: black;
+    color : white ;
+    max-width: 100% !important  ;
+}
+.footerdiv row {
+
+    
+    
+    display:flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    row-gap: 10px;
+    margin-top : 15px;
+    margin-bottom:0; 
+    margin-right: auto;
+    margin-left :auto;
+
+    padding: 0;
+}
+
+
+.footerdiv ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-items: start;
+}
+.footerdiv h3 {
+    justify-content: start;
+    font-size: 1.2em
+}
+.footerdiv article {
+    display :grid ;
+    justify-items: start;
+    padding-top : 15px;
+}
+.footerdiv article h3, .footerdiv article ul{
+width : auto;
+}
+#social {
+    display:flex;
+    flex: row;
+    column-gap: 10px;
+}

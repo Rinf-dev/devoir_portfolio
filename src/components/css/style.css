@@ -1,0 +1,171 @@
+@import url(./responsive.css);
+.container {
+    color : #000000 ;
+}
+
+.second_article ul {
+    list-style-type: none;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 5px;
+}
+#presentation button {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-style: none;
+    border-radius: 5px;
+}
+#presentation a {
+    text-decoration: none;
+}
+#presentation {
+display : flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-image: url('../../images/hero-bg.jpg');
+background-size: cover;
+color:beige;
+padding:0;
+margin:0;
+width:100vw;
+height: 40vw;
+}
+#presentation h1  {
+    margin: 0px;
+}
+
+.presentation h2  {
+    margin-top: 0;
+    margin-bottom :5px;
+}
+
+.central {
+    width: 79vw;
+    column-gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.first_article h3, .second_article h3 {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: green;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.first_article button {
+    background-color:dodgerblue;
+    color: white;
+    border-color: dodgerblue;
+    border-radius: 5px;   
+}
+.articles {
+display: flex !important;
+flex-direction: row;
+margin :auto ;
+}
+.first_article form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first_article button {
+    margin-top: 15px;
+    width: 100px;
+}
+.contactform {
+    width:100%;
+    margin-bottom: 10px;
+}
+#textmessage {
+    width:100%;
+    height: 200px;
+
+}
+.service_article {
+    display :flex ;
+    flex-direction: column;
+    width : 30%;
+    margin-left : 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px ;
+    border-color: grey;
+    border-radius: 5px;
+
+}
+.service_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.second_article svg {
+    padding-right: 5px;
+    width: 1.1em;
+}
+.presentation2 {
+    background-image: url('../../images/banner.jpg');
+    background-size: cover;
+    color:beige;
+    padding:0;
+    margin:0;
+    width:100%;
+    height: 20vh;
+    }
+.offre {
+    display :flex ;
+    flex-direction: column;
+    width : 100%;
+    margin-left : auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-bottom-width: 3px;
+    justify-content: center;
+    text-align: center;
+    
+}
+.offre span {
+    width: 30% ;
+    border-bottom-style: solid ;
+    border-bottom-color: green ;
+    border-bottom-width: 3px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.service_article {
+    display : flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items : center;
+    width : auto;
+    padding-top: 0;
+    padding-left: 0 !important;
+    padding-right: 0!important;
+
+}
+.service_article svg {
+    width : 25px;
+    height : auto ;
+}
+.cardfoot {
+    width : 100%;
+    background-color:#f0f0f0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgrey;
+    margin-left: 0;
+}

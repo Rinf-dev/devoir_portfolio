@@ -1,0 +1,77 @@
+
+/* pour la mise en forme responsive*/
+@media screen and (min-width:150px) {
+    .footerdiv article {
+        margin-left : auto;
+        margin-right: auto;
+        
+    }
+    .first_article figure {
+        width : 90%;
+        margin:0;
+        padding:0;
+    
+    }
+    .first_article img {
+       width : 100%;
+        height : 100%;
+        object-fit: cover;
+    }
+    .first_article , .second_article {
+        width : 85vw;
+        padding :5px ;     
+   
+    }
+
+    .second_article figure {
+        width : 90vw;
+        height : 1vw;
+        padding: 0;
+        margin-top:0;
+        margin-right: 0;
+        margin-bottom: 50;    
+        margin-left: 0;
+    }
+    .second_article li img {
+        width : 7vw;
+        height : 8px;
+
+    }
+    
+}
+    @media screen and (min-width:768px)
+{
+        
+    
+    .first_article figure {
+        width : 35vw;
+        margin:0;
+        padding:0;
+    
+    }
+    .first_article , .second_article {
+        width : 40vw;
+        padding :5px ;     
+    
+    
+    }
+    .second_article figure {
+        width : 40vw;
+        height : 1vw;
+        padding: 0;
+        margin-top:0;
+        margin-right: 0;
+        margin-bottom: 50;    
+        margin-left: 0;
+    }
+    .second_article li img {
+        width : 3.6vw;
+        height : 8px;
+    }
+    
+
+}
+@media screen and (min-width:1020px)
+{
+
+}
