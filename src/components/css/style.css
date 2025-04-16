@@ -1,8 +1,15 @@
 @import url(./responsive.css);
+
+
 .container {
     color : #000000 ;
 }
-
+.modal-content {
+    background-color: black !important;
+}
+.modal-footer button {
+    background-color: grey !important;
+}
 .second_article ul {
     list-style-type: none;
     padding-right: 0;
@@ -112,10 +119,6 @@ margin :auto ;
     flex-direction: row;
     justify-content: center;
 }
-.second_article svg {
-    padding-right: 5px;
-    width: 1.1em;
-}
 .presentation2 {
     background-image: url('../../images/banner.jpg');
     background-size: cover;
@@ -157,10 +160,18 @@ margin :auto ;
     padding-right: 0!important;
 
 }
-.service_article svg {
+.service_article svg , .accordion-body svg {
     width : 25px;
     height : auto ;
+    padding-right: 5px;
+    width: 1.1em;
+
 }
+.second_article svg {
+    padding-right: 5px;
+    width: 1.1em;
+}
+
 .cardfoot {
     width : 100%;
     background-color:#f0f0f0;
@@ -168,4 +179,21 @@ margin :auto ;
     border-width: 1px;
     border-color: darkgrey;
     margin-left: 0;
+}
+.mod-organize {
+    display:flex;
+    flex-direction: row;
+    gap : 20px;
+}
+.inmodal {
+    display : flex;
+    flex-direction: row;
+    width : 200px ;
+    border-width: 1px;
+    border-color: grey;
+    border-bottom-style :solid;
+    column-gap: 10px;
+}
+.inmodalleft img {
+    width : 250px;
 }

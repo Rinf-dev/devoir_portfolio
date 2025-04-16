@@ -38,6 +38,14 @@
     justify-items: start;
     padding-top : 15px;
 }
+.footerli a {
+    text-decoration : none ;
+    color: white;
+    background-color: black;
+    border-style: none;
+    padding-left: 0;
+    height : 24px;
+}
 .footerdiv article h3, .footerdiv article ul{
 width : auto;
 }

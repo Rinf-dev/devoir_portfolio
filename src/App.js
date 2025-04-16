@@ -18,11 +18,11 @@ import "../src/components/css/main.css";
 
 
 function App() {
+
   return (
     <header >
         <div id="firstline">
           <p>John Doe</p>
-
           <Navbar expand="lg" className="text-white ">
           <Container>
             <Navbar.Toggle aria-controls="basic-navbar-nav" className ="navbar-dark"/>

@@ -1,7 +1,13 @@
 import React from "react" ;
 import "./css/footer.css";
-import {Link} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
+import {Routes,Route} from "react-router-dom";
+
+import Home from '../components/Home';
+import Services from '../components/Services';
+import Portfolio from '../components/Portfolio';
+import Contact from '../components/Contact';
+import Legal from '../components/Legal';
 
 
 
@@ -28,22 +34,24 @@ const Footer=()=>{
                 </article>
                 <article className = "col-7 col-md-3">
                     <h3>Liens utiles</h3>
-                    <ul>
-                        <li>Accueil</li>
-                        <li>Services</li>
-                        <li>Portfolio</li>
-                        <li>Me contacter</li>
-                        <li>Mentions légales</li>                        
-                    </ul>
-                </article>
+                    <nav>
+                        <ul className="footerul">
+                            <li className="footerli"><a href="/"> Accueil</a></li>
+                            <li className="footerli"><a href="/services"> Services</a></li>
+                            <li className="footerli"><a href="/portfolio"> Portfolio</a></li>      
+                            <li className="footerli"><a href="/contact"> Me Contacter</a></li>
+                            <li className="footerli"><a href="/legal"> Mentions Légales</a></li>   
+                        </ul>
+                    </nav>                </article>
                 <article className = "col-7 col-md-3">
                     <h3>Mes dernières réalisations</h3>
-                    <ul>
-                        <li>projet 1</li>
-                        <li>projet 2</li>
-                        <li>projet 3</li>
-                        <li>projet 4</li>
-                    </ul>
+                    <ul className="footerul">
+                            <li className="footerli"><a href="https://sushizen.fr/fr/" target="_blank" class="btn btn-primary">Sushi Restaurant</a></li>
+                            <li className="footerli"><a href="https://osiamspa.com/" target="_blank" class="btn btn-primary">Spa détente</a></li>
+                            <li className="footerli"><a href="http://faniry.andriamihaja.com" target="_blank" class="btn btn-primary">Stars du Foot</a></li>      
+                            <li className="footerli"><a href="https://www.rinf.org/refuge/newsletter/nl10" target="_blank" class="btn btn-primary">Orphelinat</a></li>
+                            
+                        </ul>
                 </article>
             </div>
         </div>
